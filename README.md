@@ -1,7 +1,7 @@
 # 🚀 Assisted-coding🧠
 
 ![Repo Size](https://img.shields.io/github/repo-size/Yokesh4/Assisted-coding?color=blue&style=flat-square)
-![License](https://img.shields.io/github/license/theyogi_/Assisted-coding?color=green&style=flat-square)
+![License](https://img.shields.io/github/license/Yokesh4/Assisted-coding?color=green&style=flat-square)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
 
 <p align="center">
