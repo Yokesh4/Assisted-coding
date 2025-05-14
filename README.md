@@ -1,7 +1,7 @@
 # 🚀 Assisted-coding🧠
 
-![Repo Size](https://img.shields.io/github/repo-size/yogii/My-Logic-Question-Bank?color=blue&style=flat-square)
-![License](https://img.shields.io/github/license/yogii/My-Logic-Question-Bank?color=green&style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/theyogi_/My-Logic-Question-Bank?color=blue&style=flat-square)
+![License](https://img.shields.io/github/license/theyogi_/My-Logic-Question-Bank?color=green&style=flat-square)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
 
 <p align="center">
