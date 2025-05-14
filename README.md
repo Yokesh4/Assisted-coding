@@ -55,6 +55,8 @@ Feel free to **Fork**, **Star ⭐**, and **Create a Pull Request**.
 
 ## 📄 License
 This project is licensed under the **MIT License**.
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Happy%20Learning!&fontSize=30&fontColor=ffffff" alt="Footer wave">
