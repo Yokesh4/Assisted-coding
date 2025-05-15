@@ -20,16 +20,6 @@ Write a function that:
    - If `prev` becomes negative, skip it and return only after.
 4. Rejects invalid inputs (`midNum` outside 0-9) by returning `-1`.
 
-## 🎯 Problem Explanation
-Given a middle seat number (`midNum`), the system computes nearby seat numbers using the following formulas:
-- `prev = (midNum - 2) * 10 + (midNum - 1)`
-- `after` depends on whether the next seat numbers are single or double digits:
-  - For small next numbers, concatenate normally.
-  - For larger next numbers, multiply accordingly to maintain digit patterns.
-
-The final combination result merges:
-- `prev`, `midNum`, and `after` into a continuous number.
-
 ### 🟡 Special Conditions:
 - If `prev` is negative, it is ignored in the final combination.
 - Inputs outside the range 0-9 return `-1` as invalid.
@@ -48,6 +38,3 @@ The final combination result merges:
 | TC-8      | 1                | 23              | prev = -8 (ignored), after = 23 → Result = 23 |
 | TC-9      | 6                | 45678           | prev = 45, after = 78 → Result = 45 + 6 + 78 |
 
-## 🛠 Sample Function Signature (Java)
-```java
-public static int CombinationGenerator(int midNum)
