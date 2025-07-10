@@ -1,4 +1,4 @@
-# 🔁 Forward-Backward Even Sum Calculator
+# 🔁 Forward-Forward Even Sum Calculator
 
 ## 📝 Problem Statement  
 You're developing a **smart street lighting system** for a city. The lights on each road are uniquely numbered. The city wants to calculate the **total energy consumption** for a subset of lights based on specific street sections. Here's how it works:
