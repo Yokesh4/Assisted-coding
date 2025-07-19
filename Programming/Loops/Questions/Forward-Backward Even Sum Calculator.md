@@ -13,7 +13,7 @@ You're developing a **smart street lighting system** for a city. The lights on e
 Write a function that:
 1. Accepts four integers:  
    - `s1`, `e1` → Start and end of the **forward** range.  
-   - `s2`, `e2` → Start and end of the **backward** range.  
+   - `s2`, `e2` → Start and end of the **forward** range.  
 2. Takes absolute values of all inputs (in case of sensor errors).
 3. If `s1` and `s2` do not match parity (i.e., one is even, one is odd), return **0**.
 
