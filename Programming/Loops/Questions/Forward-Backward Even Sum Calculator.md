@@ -5,7 +5,7 @@ You're developing a **smart street lighting system** for a city. The lights on e
 
 - Each street has **two sections**:
   - One where lights are checked in **forward direction** (`s1` to `e1`)
-  - Another in the **backward direction** (`s2` to `e2`)
+  - Another in the **forward direction** (`s2` to `e2`)
 - Only **even-numbered lights** are considered for energy reporting.
 - The system runs this analysis **only when both section starts** (`s1` and `s2`) are either **both even** or **both odd**.
 
