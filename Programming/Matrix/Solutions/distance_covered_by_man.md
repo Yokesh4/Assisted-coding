@@ -72,7 +72,6 @@ destRow = 3, destCol = 1
 
 ## Formula-based Optimized Approach (O(1))
 
-### Idea
 Instead of iterating:
 - Calculate the number of cells visited before the destination.
 - `cellsVisited = (destRow - destCol) * N + destCol`
