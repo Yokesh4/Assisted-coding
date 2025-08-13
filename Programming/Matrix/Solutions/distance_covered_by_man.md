@@ -26,7 +26,10 @@ The man:
 ---
 
 ## Pseudo-code
+FUNCTION distanceCovered(m, n, k, destRow, destCol):
+distance ← 0
 
+```pseudo
 FOR row FROM destCol TO m-1:
     FOR col FROM 0 TO n-1:
         IF row == destRow AND col == destCol:
@@ -35,9 +38,8 @@ FOR row FROM destCol TO m-1:
 
 RETURN distance
 
-
+```
 ---
-
 ## Example Walkthrough
 **Input:**
 
@@ -64,5 +66,37 @@ destRow = 3, destCol = 1
 ## Notes
 - The pseudo-code is language-agnostic; you can translate it into Java, Python, C++, or any language.
 - For very large grids, this method may be slow — consider using a formula-based O(1) approach to count moves without iterating.
+
+
+---
+
+## Formula-based Optimized Approach (O(1))
+
+### Idea
+Instead of iterating:
+- Calculate the number of cells visited before the destination.
+- `cellsVisited = (destRow - destCol) * N + destCol`
+- Multiply `cellsVisited` by `K` to get total distance.
+
+---
+
+Formula-based Code (Pseudo-code)
+```pseudo
+FUNCTION distanceCoveredOptimized(m, n, k, destRow, destCol):
+    rowsPassed ← destRow - destCol
+    cellsVisited ← rowsPassed * n + destCol
+    RETURN cellsVisited * k
+```
+
+Time Complexity
+Loop-based: O(M × N)
+
+Formula-based: O(1)
+
+Space Complexity
+O(1) in both cases.
+
+---
+I’ve kept **both** versions so in contests you can submit the **O(1) version** for speed. 
 
 
