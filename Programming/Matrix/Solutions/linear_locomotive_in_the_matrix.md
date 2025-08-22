@@ -9,7 +9,9 @@ We are given:
 - The train can **repair a broken track** only if one of these holds:
   1. There is a valid (already passed or unbroken) track directly above `(i-1, j)`.  
   2. There is a valid track at the **end of the previous row** `(i-1, n-1)`.  
-  3. There is a valid track **two steps to the left** `(i, j-2)`.  
+  3. There is a valid track **two steps to the left** `(i, j-2)`.
+- Once repaired, the broken track becomes a 0 (passed track).
+- Repairable track (can be used once, but after being used it becomes broken).
 - If the starting cell `(Ye, 0)` is broken, the journey fails immediately.  
 - Return **true** if the train can reach `(Xe, Ye)`, otherwise **false**.
 
