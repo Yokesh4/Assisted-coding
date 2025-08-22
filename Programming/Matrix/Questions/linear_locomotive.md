@@ -21,6 +21,8 @@ If the train encounters a broken track (`-1`), it can repair it **only if** at l
 
 Once repaired, the broken track becomes a `0` (passed track).
 
+Repairable track (can be used once, but after being used it becomes broken).
+
 The starting cell `(Ye, 0)` **cannot** be repaired if broken — if it’s broken, return `false` immediately.
 
 Return `true` if the train can reach `(Xe, Ye)`, else `false`.
